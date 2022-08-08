@@ -2,14 +2,14 @@
   "entries": ["./assembly/index.ts"],
   "targets": {
     "debug": {
-      "outFile": "build/out.wasm",
-      "textFile": "build/out.wat",
+      "outFile": "public/build/out.wasm",
+      "textFile": "public/build/out.wat",
       "sourceMap": true,
       "debug": true
     },
     "release": {
-      "outFile": "build/out.wasm",
-      "textFile": "build/out.wat",
+      "outFile": "public/build/out.wasm",
+      "textFile": "public/build/out.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
       "shrinkLevel": 0,
